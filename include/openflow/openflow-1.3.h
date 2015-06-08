@@ -121,8 +121,17 @@ enum ofp13_action_type {
     OFPAT13_DEC_NW_TTL   = 24,  /* Decrement IP TTL. */
     OFPAT13_SET_FIELD    = 25,  /* Set a header field using OXM TLV format. */
     OFPAT13_PUSH_PBB     = 26,  /* Push a new PBB service tag (I-TAG) */
-    OFPAT13_POP_PBB      = 27   /* Pop the outer PBB service tag (I-TAG) */
+    OFPAT13_POP_PBB      = 27,   /* Pop the outer PBB service tag (I-TAG) */
+
+    /*add my new action  type*/
+    OFPAT13_SELF_LEARNING = 28    /*self learning mac. */ 
 };
+
+/* my action structure for OFPAT13_SELF_LEARNING. */
+struct ofp13_action_self_learning {
+    ovs_be16 type;                  /* OFPAT11_SELF_LEARNING. */
+    ovs_be16 len;                   /* Length is 8. */
+    uint8_t pad[4];
 
 /* enum ofp_config_flags value OFPC_INVALID_TTL_TO_CONTROLLER
  * is deprecated in OpenFlow 1.3 */

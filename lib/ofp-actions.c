@@ -1270,6 +1270,13 @@ ofpact_from_openflow11(const union ofp_action *a, enum ofp_version version,
         ofpact_put_GROUP(out)->group_id = ntohl(a->group.group_id);
         break;
 
+    /* init action(ofpacts).
+    code=OFPUTIL_##ENUM(action type,in of-util.def and openflow-1.2.h)
+    pact_put_##ENUM (ofpact type ,in ofp-actions.h) */
+    case OFPUTIL_OFPAT13_SELF_LEARNING:
+        ofpact_put_SELF_LEARNING(out);
+        break;
+
 #define NXAST_ACTION(ENUM, STRUCT, EXTENSIBLE, NAME) case OFPUTIL_##ENUM:
 #include "ofp-util.def"
         return ofpact_from_nxast(a, code, out);
@@ -2062,6 +2069,8 @@ ofpact_check__(enum ofputil_protocol *usable_protocols, struct ofpact *a,
     case OFPACT_SET_QUEUE:
     case OFPACT_POP_QUEUE:
     case OFPACT_RESUBMIT:
+    /* add my ofpact type for checking. ofpact type in ofp-actios.h */
+    case OFPACT_SELF_LEARNING：
         return 0;
 
     case OFPACT_FIN_TIMEOUT:

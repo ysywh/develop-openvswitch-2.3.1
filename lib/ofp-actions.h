@@ -85,6 +85,11 @@
     DEFINE_OFPACT(PUSH_MPLS,       ofpact_push_mpls,     ofpact)    \
     DEFINE_OFPACT(POP_MPLS,        ofpact_pop_mpls,      ofpact)    \
                                                                     \
+    /* my action  */                                                \
+    /* ENUM is new ofpact type */                                   \
+    /* structure is define in ofp-actions.h for new ofpact type*/   \
+    DEFINE_OFPACT(SELF_LEARNING,   ofpact_self_learning, ofpact)    \
+                                                                    \
     /* Metadata. */                                                 \
     DEFINE_OFPACT(SET_TUNNEL,      ofpact_tunnel,        ofpact)    \
     DEFINE_OFPACT(SET_QUEUE,       ofpact_queue,         ofpact)    \
@@ -387,6 +392,14 @@ struct ofpact_push_mpls {
 struct ofpact_pop_mpls {
     struct ofpact ofpact;
     ovs_be16 ethertype;
+};
+
+/* add my new ofpact  structure for OFPAT12_SELF_LEARNING.
+ Can be placed by "struct ofpact_null " */
+/* OFPACT_SELF_LEARNING.
+* Used for OFPAT13_SELF_LEARNING(action type). */
+struct ofpact_self_learning {
+    struct ofpact ofpact;
 };
 
 /* OFPACT_SET_TUNNEL.

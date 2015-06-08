@@ -64,6 +64,11 @@ OFPAT13_ACTION(OFPAT13_SET_FIELD,    ofp12_action_set_field, 1, "set_field")
 OFPAT13_ACTION(OFPAT13_PUSH_PBB,     ofp11_action_push,      0, "push_pbb")
 OFPAT13_ACTION(OFPAT13_POP_PBB,      ofp_action_header,      0, "pop_pbb")
 
+/* add my new action 13
+ENUM is action type,ENUM and STRUCT are defined in openflow-1.3.h
+code=OFPUTIL_##ENUM */
+OFPAT13_ACTION(OFPAT13_SELF_LEARNING,    ofp13_action_self_learning, 0, "self_learning")
+
 #ifndef NXAST_ACTION
 #define NXAST_ACTION(ENUM, STRUCT, EXTENSIBLE, NAME)
 #endif
