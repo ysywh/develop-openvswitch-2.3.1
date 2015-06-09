@@ -8146,28 +8146,28 @@ unused	lib\odp-util.h	/^        uint16_t unused;$/;"	m	struct:user_action_cookie
 user_action_cookie	lib\odp-util.h	/^union user_action_cookie {$/;"	u
 user_action_cookie_type	lib\odp-util.h	/^enum user_action_cookie_type {$/;"	g
 vlan_tci	lib\odp-util.h	/^        ovs_be16 vlan_tci;      \/* Destination VLAN TCI. *\/$/;"	m	struct:user_action_cookie::__anon69
-ACTION_FOR_EACH	lib\ofp-actions.c	625;"	d	file:
-DEFINE_INST	lib\ofp-actions.c	1522;"	d	file:
-DEFINE_INST	lib\ofp-actions.c	1546;"	d	file:
-DEFINE_INST	lib\ofp-actions.c	1554;"	d	file:
+ACTION_FOR_EACH	lib\ofp-actions.c	628;"	d	file:
+DEFINE_INST	lib\ofp-actions.c	1532;"	d	file:
 DEFINE_INST	lib\ofp-actions.c	1556;"	d	file:
-DEFINE_INST	lib\ofp-actions.c	1643;"	d	file:
-DEFINE_INST	lib\ofp-actions.c	1648;"	d	file:
-DEFINE_INST	lib\ofp-actions.c	1690;"	d	file:
-DEFINE_INST	lib\ofp-actions.c	1701;"	d	file:
-INSTRUCTION_FOR_EACH	lib\ofp-actions.c	1673;"	d	file:
-NXAST_ACTION	lib\ofp-actions.c	1273;"	d	file:
-NXAST_ACTION	lib\ofp-actions.c	315;"	d	file:
-NXAST_ACTION	lib\ofp-actions.c	596;"	d	file:
-OFPAT10_ACTION	lib\ofp-actions.c	1146;"	d	file:
-OFPAT10_ACTION	lib\ofp-actions.c	353;"	d	file:
-OFPAT10_ACTION	lib\ofp-actions.c	378;"	d	file:
-OFPAT11_ACTION	lib\ofp-actions.c	379;"	d	file:
-OFPAT11_ACTION	lib\ofp-actions.c	526;"	d	file:
-OFPAT11_ACTION	lib\ofp-actions.c	755;"	d	file:
-OFPAT13_ACTION	lib\ofp-actions.c	1147;"	d	file:
-OFPAT13_ACTION	lib\ofp-actions.c	380;"	d	file:
-OFPAT13_ACTION	lib\ofp-actions.c	527;"	d	file:
+DEFINE_INST	lib\ofp-actions.c	1564;"	d	file:
+DEFINE_INST	lib\ofp-actions.c	1566;"	d	file:
+DEFINE_INST	lib\ofp-actions.c	1653;"	d	file:
+DEFINE_INST	lib\ofp-actions.c	1658;"	d	file:
+DEFINE_INST	lib\ofp-actions.c	1700;"	d	file:
+DEFINE_INST	lib\ofp-actions.c	1711;"	d	file:
+INSTRUCTION_FOR_EACH	lib\ofp-actions.c	1683;"	d	file:
+NXAST_ACTION	lib\ofp-actions.c	1283;"	d	file:
+NXAST_ACTION	lib\ofp-actions.c	318;"	d	file:
+NXAST_ACTION	lib\ofp-actions.c	599;"	d	file:
+OFPAT10_ACTION	lib\ofp-actions.c	1149;"	d	file:
+OFPAT10_ACTION	lib\ofp-actions.c	356;"	d	file:
+OFPAT10_ACTION	lib\ofp-actions.c	381;"	d	file:
+OFPAT11_ACTION	lib\ofp-actions.c	382;"	d	file:
+OFPAT11_ACTION	lib\ofp-actions.c	529;"	d	file:
+OFPAT11_ACTION	lib\ofp-actions.c	758;"	d	file:
+OFPAT13_ACTION	lib\ofp-actions.c	1150;"	d	file:
+OFPAT13_ACTION	lib\ofp-actions.c	383;"	d	file:
+OFPAT13_ACTION	lib\ofp-actions.c	530;"	d	file:
 action_is_valid	lib\ofp-actions.c	/^action_is_valid(const union ofp_action *a, size_t max_actions)$/;"	f	file:
 action_next	lib\ofp-actions.c	/^action_next(const union ofp_action *a)$/;"	f	file:
 bundle	lib\ofp-actions.c	/^    struct nx_action_bundle bundle;$/;"	m	union:ofp_action	typeref:struct:ofp_action::nx_action_bundle	file:
@@ -8290,6 +8290,7 @@ resubmit_table_from_openflow	lib\ofp-actions.c	/^resubmit_table_from_openflow(co
 rl	lib\ofp-actions.c	/^static struct vlog_rate_limit rl = VLOG_RATE_LIMIT_INIT(1, 5);$/;"	v	typeref:struct:vlog_rate_limit	file:
 sample	lib\ofp-actions.c	/^    struct nx_action_sample sample;$/;"	m	union:ofp_action	typeref:struct:ofp_action::nx_action_sample	file:
 sample_from_openflow	lib\ofp-actions.c	/^sample_from_openflow(const struct nx_action_sample *nas,$/;"	f	file:
+self_larning	lib\ofp-actions.c	/^    struct ofp13_action_self_learning self_larning;$/;"	m	union:ofp_action	typeref:struct:ofp_action::ofp13_action_self_learning	file:
 set_field	lib\ofp-actions.c	/^    struct ofp12_action_set_field set_field;$/;"	m	union:ofp_action	typeref:struct:ofp_action::ofp12_action_set_field	file:
 set_field_from_openflow	lib\ofp-actions.c	/^set_field_from_openflow(const struct ofp12_action_set_field *oasf,$/;"	f	file:
 set_field_to_nxast	lib\ofp-actions.c	/^set_field_to_nxast(const struct ofpact_set_field *sf, struct ofpbuf *openflow)$/;"	f	file:
@@ -8308,26 +8309,26 @@ vendor	lib\ofp-actions.c	/^    struct ofp_action_vendor_header vendor;$/;"	m	uni
 vlan_pcp	lib\ofp-actions.c	/^    struct ofp_action_vlan_pcp vlan_pcp;$/;"	m	union:ofp_action	typeref:struct:ofp_action::ofp_action_vlan_pcp	file:
 vlan_vid	lib\ofp-actions.c	/^    struct ofp_action_vlan_vid vlan_vid;$/;"	m	union:ofp_action	typeref:struct:ofp_action::ofp_action_vlan_vid	file:
 write_metadata	lib\ofp-actions.c	/^    struct nx_action_write_metadata write_metadata;$/;"	m	union:ofp_action	typeref:struct:ofp_action::nx_action_write_metadata	file:
-DEFINE_INST	lib\ofp-actions.h	738;"	d
-DEFINE_INST	lib\ofp-actions.h	740;"	d
-DEFINE_INST	lib\ofp-actions.h	744;"	d
-DEFINE_INST	lib\ofp-actions.h	746;"	d
-DEFINE_OFPACT	lib\ofp-actions.h	115;"	d
-DEFINE_OFPACT	lib\ofp-actions.h	117;"	d
-DEFINE_OFPACT	lib\ofp-actions.h	123;"	d
-DEFINE_OFPACT	lib\ofp-actions.h	125;"	d
-DEFINE_OFPACT	lib\ofp-actions.h	670;"	d
-DEFINE_OFPACT	lib\ofp-actions.h	702;"	d
+DEFINE_INST	lib\ofp-actions.h	751;"	d
+DEFINE_INST	lib\ofp-actions.h	753;"	d
+DEFINE_INST	lib\ofp-actions.h	757;"	d
+DEFINE_INST	lib\ofp-actions.h	759;"	d
+DEFINE_OFPACT	lib\ofp-actions.h	120;"	d
+DEFINE_OFPACT	lib\ofp-actions.h	122;"	d
+DEFINE_OFPACT	lib\ofp-actions.h	128;"	d
+DEFINE_OFPACT	lib\ofp-actions.h	130;"	d
+DEFINE_OFPACT	lib\ofp-actions.h	683;"	d
+DEFINE_OFPACT	lib\ofp-actions.h	715;"	d
 N_OFPACTS	lib\ofp-actions.h	/^    N_OFPACTS =$/;"	e	enum:__anon73
 N_OVS_INSTRUCTIONS	lib\ofp-actions.h	/^    N_OVS_INSTRUCTIONS = OVS_INSTRUCTIONS$/;"	e	enum:__anon74
 OFPACTS	lib\ofp-actions.h	/^    OFPACTS$/;"	e	enum:ofpact_type
 OFPACTS	lib\ofp-actions.h	52;"	d
-OFPACT_ALIGN	lib\ofp-actions.h	171;"	d
-OFPACT_ALIGNTO	lib\ofp-actions.h	170;"	d
-OFPACT_FOR_EACH	lib\ofp-actions.h	187;"	d
+OFPACT_ALIGN	lib\ofp-actions.h	176;"	d
+OFPACT_ALIGNTO	lib\ofp-actions.h	175;"	d
+OFPACT_FOR_EACH	lib\ofp-actions.h	192;"	d
 OFP_ACTIONS_H	lib\ofp-actions.h	18;"	d
 OVS_INSTRUCTIONS	lib\ofp-actions.h	/^    OVS_INSTRUCTIONS$/;"	e	enum:ovs_instruction_type
-OVS_INSTRUCTIONS	lib\ofp-actions.h	712;"	d
+OVS_INSTRUCTIONS	lib\ofp-actions.h	725;"	d
 actions	lib\ofp-actions.h	/^    struct ofpact actions[];$/;"	m	struct:ofpact_nest	typeref:struct:ofpact_nest::ofpact
 algorithm	lib\ofp-actions.h	/^    enum nx_bd_algorithm algorithm;$/;"	m	struct:ofpact_bundle	typeref:enum:ofpact_bundle::nx_bd_algorithm
 algorithm	lib\ofp-actions.h	/^    enum nx_mp_algorithm algorithm;$/;"	m	struct:ofpact_multipath	typeref:enum:ofpact_multipath::nx_mp_algorithm
@@ -8416,6 +8417,7 @@ ofpact	lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_reg_loa
 ofpact	lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_reg_move	typeref:struct:ofpact_reg_move::ofpact
 ofpact	lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_resubmit	typeref:struct:ofpact_resubmit::ofpact
 ofpact	lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_sample	typeref:struct:ofpact_sample::ofpact
+ofpact	lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_self_learning	typeref:struct:ofpact_self_learning::ofpact
 ofpact	lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_set_field	typeref:struct:ofpact_set_field::ofpact
 ofpact	lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_stack	typeref:struct:ofpact_stack::ofpact
 ofpact	lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_tunnel	typeref:struct:ofpact_tunnel::ofpact
@@ -8458,6 +8460,7 @@ ofpact_reg_load	lib\ofp-actions.h	/^struct ofpact_reg_load {$/;"	s
 ofpact_reg_move	lib\ofp-actions.h	/^struct ofpact_reg_move {$/;"	s
 ofpact_resubmit	lib\ofp-actions.h	/^struct ofpact_resubmit {$/;"	s
 ofpact_sample	lib\ofp-actions.h	/^struct ofpact_sample {$/;"	s
+ofpact_self_learning	lib\ofp-actions.h	/^struct ofpact_self_learning {$/;"	s
 ofpact_set_field	lib\ofp-actions.h	/^struct ofpact_set_field {$/;"	s
 ofpact_stack	lib\ofp-actions.h	/^struct ofpact_stack {$/;"	s
 ofpact_tunnel	lib\ofp-actions.h	/^struct ofpact_tunnel {$/;"	s

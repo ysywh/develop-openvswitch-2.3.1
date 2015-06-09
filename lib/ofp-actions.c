@@ -58,6 +58,9 @@ union ofp_action {
     struct ofp11_action_mpls_ttl ofp11_mpls_ttl;
     struct ofp11_action_group group;
     struct ofp12_action_set_field set_field;
+    // add my new action
+    struct ofp13_action_self_learning self_larning;
+    
     struct nx_action_header nxa_header;
     struct nx_action_resubmit resubmit;
     struct nx_action_set_tunnel set_tunnel;

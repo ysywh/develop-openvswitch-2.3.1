@@ -7,7 +7,7 @@
 A	.\lib\meta-flow.c	2500;"	d	file:
 A	.\lib\meta-flow.c	2513;"	d	file:
 ABORTED	.\python\ovs\db\idl.py	/^    ABORTED = "aborted"          # ovsdb_idl_txn_abort() called.$/;"	v	class:Transaction
-ACTION_FOR_EACH	.\lib\ofp-actions.c	625;"	d	file:
+ACTION_FOR_EACH	.\lib\ofp-actions.c	628;"	d	file:
 ACTIVE	.\lib\netdev-dummy.c	/^    ACTIVE      \/* Connect to listener. *\/$/;"	e	enum:dummy_packet_conn_type	file:
 ACTIVE_TIMEOUT	.\ofproto\ofproto-dpif-ipfix.c	/^    ACTIVE_TIMEOUT = 0x02,$/;"	e	enum:ipfix_flow_end_reason	file:
 ADD	.\ofproto\bond.c	/^    ADD,        \/* Add the rule to ofproto's flow table. *\/$/;"	e	enum:bond_op	file:
@@ -295,24 +295,24 @@ DEFINE_COMPAT_PNET_REG_FUNC	.\datapath\linux\compat\include\net\net_namespace.h	
 DEFINE_EXTERN_PER_THREAD_DATA	.\lib\ovs-thread.h	309;"	d
 DEFINE_EXTERN_PER_THREAD_DATA	.\lib\ovs-thread.h	361;"	d
 DEFINE_FLEX_ARRAY	.\datapath\linux\compat\include\linux\flex_array.h	58;"	d
-DEFINE_INST	.\lib\ofp-actions.c	1522;"	d	file:
-DEFINE_INST	.\lib\ofp-actions.c	1546;"	d	file:
-DEFINE_INST	.\lib\ofp-actions.c	1554;"	d	file:
+DEFINE_INST	.\lib\ofp-actions.c	1532;"	d	file:
 DEFINE_INST	.\lib\ofp-actions.c	1556;"	d	file:
-DEFINE_INST	.\lib\ofp-actions.c	1643;"	d	file:
-DEFINE_INST	.\lib\ofp-actions.c	1648;"	d	file:
-DEFINE_INST	.\lib\ofp-actions.c	1690;"	d	file:
-DEFINE_INST	.\lib\ofp-actions.c	1701;"	d	file:
-DEFINE_INST	.\lib\ofp-actions.h	738;"	d
-DEFINE_INST	.\lib\ofp-actions.h	740;"	d
-DEFINE_INST	.\lib\ofp-actions.h	744;"	d
-DEFINE_INST	.\lib\ofp-actions.h	746;"	d
-DEFINE_OFPACT	.\lib\ofp-actions.h	115;"	d
-DEFINE_OFPACT	.\lib\ofp-actions.h	117;"	d
-DEFINE_OFPACT	.\lib\ofp-actions.h	123;"	d
-DEFINE_OFPACT	.\lib\ofp-actions.h	125;"	d
-DEFINE_OFPACT	.\lib\ofp-actions.h	670;"	d
-DEFINE_OFPACT	.\lib\ofp-actions.h	702;"	d
+DEFINE_INST	.\lib\ofp-actions.c	1564;"	d	file:
+DEFINE_INST	.\lib\ofp-actions.c	1566;"	d	file:
+DEFINE_INST	.\lib\ofp-actions.c	1653;"	d	file:
+DEFINE_INST	.\lib\ofp-actions.c	1658;"	d	file:
+DEFINE_INST	.\lib\ofp-actions.c	1700;"	d	file:
+DEFINE_INST	.\lib\ofp-actions.c	1711;"	d	file:
+DEFINE_INST	.\lib\ofp-actions.h	751;"	d
+DEFINE_INST	.\lib\ofp-actions.h	753;"	d
+DEFINE_INST	.\lib\ofp-actions.h	757;"	d
+DEFINE_INST	.\lib\ofp-actions.h	759;"	d
+DEFINE_OFPACT	.\lib\ofp-actions.h	120;"	d
+DEFINE_OFPACT	.\lib\ofp-actions.h	122;"	d
+DEFINE_OFPACT	.\lib\ofp-actions.h	128;"	d
+DEFINE_OFPACT	.\lib\ofp-actions.h	130;"	d
+DEFINE_OFPACT	.\lib\ofp-actions.h	683;"	d
+DEFINE_OFPACT	.\lib\ofp-actions.h	715;"	d
 DEFINE_PER_THREAD_MALLOCED_DATA	.\lib\ovs-thread.h	422;"	d
 DEFINE_STATIC_PER_THREAD_DATA	.\lib\ovs-thread.h	279;"	d
 DEFINE_STATIC_PER_THREAD_DATA	.\lib\ovs-thread.h	312;"	d
@@ -695,7 +695,7 @@ INIT4	.\lib\util.c	1011;"	d	file:
 INIT64	.\lib\util.c	1015;"	d	file:
 INIT8	.\lib\util.c	1012;"	d	file:
 INORDER	.\lib\getopt_long.c	58;"	d	file:
-INSTRUCTION_FOR_EACH	.\lib\ofp-actions.c	1673;"	d	file:
+INSTRUCTION_FOR_EACH	.\lib\ofp-actions.c	1683;"	d	file:
 INT_STRLEN	.\lib\type-props.h	37;"	d
 IN_BAND_H	.\ofproto\in-band.h	18;"	d
 IN_ORDER	.\lib\getopt_long.c	52;"	d	file:
@@ -1347,9 +1347,9 @@ NR_THREADS	.\lib\dpif-netdev.c	70;"	d	file:
 NUM_IPFIX_PROTO_L2	.\ofproto\ofproto-dpif-ipfix.c	/^    NUM_IPFIX_PROTO_L2$/;"	e	enum:ipfix_proto_l2	file:
 NUM_IPFIX_PROTO_L3	.\ofproto\ofproto-dpif-ipfix.c	/^    NUM_IPFIX_PROTO_L3$/;"	e	enum:ipfix_proto_l3	file:
 NUM_IPFIX_PROTO_L4	.\ofproto\ofproto-dpif-ipfix.c	/^    NUM_IPFIX_PROTO_L4$/;"	e	enum:ipfix_proto_l4	file:
-NXAST_ACTION	.\lib\ofp-actions.c	1273;"	d	file:
-NXAST_ACTION	.\lib\ofp-actions.c	315;"	d	file:
-NXAST_ACTION	.\lib\ofp-actions.c	596;"	d	file:
+NXAST_ACTION	.\lib\ofp-actions.c	1283;"	d	file:
+NXAST_ACTION	.\lib\ofp-actions.c	318;"	d	file:
+NXAST_ACTION	.\lib\ofp-actions.c	599;"	d	file:
 NXAST_ACTION	.\lib\ofp-util.c	5852;"	d	file:
 NXAST_ACTION	.\lib\ofp-util.c	5914;"	d	file:
 NXAST_ACTION	.\lib\ofp-util.c	5941;"	d	file:
@@ -1597,12 +1597,12 @@ OFPACPT_TABLE_STATUS_MASTER	.\include\openflow\openflow-1.4.h	/^    OFPACPT_TABL
 OFPACPT_TABLE_STATUS_SLAVE	.\include\openflow\openflow-1.4.h	/^    OFPACPT_TABLE_STATUS_SLAVE    = 8, \/* Table status mask for slave. *\/$/;"	e	enum:ofp14_async_config_prop_type
 OFPACTS	.\lib\ofp-actions.h	/^    OFPACTS$/;"	e	enum:ofpact_type
 OFPACTS	.\lib\ofp-actions.h	52;"	d
-OFPACT_ALIGN	.\lib\ofp-actions.h	171;"	d
-OFPACT_ALIGNTO	.\lib\ofp-actions.h	170;"	d
-OFPACT_FOR_EACH	.\lib\ofp-actions.h	187;"	d
-OFPAT10_ACTION	.\lib\ofp-actions.c	1146;"	d	file:
-OFPAT10_ACTION	.\lib\ofp-actions.c	353;"	d	file:
-OFPAT10_ACTION	.\lib\ofp-actions.c	378;"	d	file:
+OFPACT_ALIGN	.\lib\ofp-actions.h	176;"	d
+OFPACT_ALIGNTO	.\lib\ofp-actions.h	175;"	d
+OFPACT_FOR_EACH	.\lib\ofp-actions.h	192;"	d
+OFPAT10_ACTION	.\lib\ofp-actions.c	1149;"	d	file:
+OFPAT10_ACTION	.\lib\ofp-actions.c	356;"	d	file:
+OFPAT10_ACTION	.\lib\ofp-actions.c	381;"	d	file:
 OFPAT10_ACTION	.\lib\ofp-util.c	5849;"	d	file:
 OFPAT10_ACTION	.\lib\ofp-util.c	5910;"	d	file:
 OFPAT10_ACTION	.\lib\ofp-util.c	5921;"	d	file:
@@ -1622,9 +1622,9 @@ OFPAT10_SET_VLAN_PCP	.\include\openflow\openflow-1.0.h	/^    OFPAT10_SET_VLAN_PC
 OFPAT10_SET_VLAN_VID	.\include\openflow\openflow-1.0.h	/^    OFPAT10_SET_VLAN_VID,       \/* Set the 802.1q VLAN id. *\/$/;"	e	enum:ofp10_action_type
 OFPAT10_STRIP_VLAN	.\include\openflow\openflow-1.0.h	/^    OFPAT10_STRIP_VLAN,         \/* Strip the 802.1q header. *\/$/;"	e	enum:ofp10_action_type
 OFPAT10_VENDOR	.\include\openflow\openflow-1.0.h	/^    OFPAT10_VENDOR = 0xffff$/;"	e	enum:ofp10_action_type
-OFPAT11_ACTION	.\lib\ofp-actions.c	379;"	d	file:
-OFPAT11_ACTION	.\lib\ofp-actions.c	526;"	d	file:
-OFPAT11_ACTION	.\lib\ofp-actions.c	755;"	d	file:
+OFPAT11_ACTION	.\lib\ofp-actions.c	382;"	d	file:
+OFPAT11_ACTION	.\lib\ofp-actions.c	529;"	d	file:
+OFPAT11_ACTION	.\lib\ofp-actions.c	758;"	d	file:
 OFPAT11_ACTION	.\lib\ofp-util.c	5850;"	d	file:
 OFPAT11_ACTION	.\lib\ofp-util.c	5912;"	d	file:
 OFPAT11_ACTION	.\lib\ofp-util.c	5937;"	d	file:
@@ -1658,9 +1658,9 @@ OFPAT11_SET_TP_SRC	.\include\openflow\openflow-1.1.h	/^    OFPAT11_SET_TP_SRC,  
 OFPAT11_SET_VLAN_PCP	.\include\openflow\openflow-1.1.h	/^    OFPAT11_SET_VLAN_PCP,     \/* Set the 802.1q priority. *\/$/;"	e	enum:ofp11_action_type
 OFPAT11_SET_VLAN_VID	.\include\openflow\openflow-1.1.h	/^    OFPAT11_SET_VLAN_VID,     \/* Set the 802.1q VLAN id. *\/$/;"	e	enum:ofp11_action_type
 OFPAT12_SET_FIELD	.\include\openflow\openflow-1.2.h	/^    OFPAT12_SET_FIELD = 25,     \/* Set a header field using OXM TLV format. *\/$/;"	e	enum:ofp12_action_type
-OFPAT13_ACTION	.\lib\ofp-actions.c	1147;"	d	file:
-OFPAT13_ACTION	.\lib\ofp-actions.c	380;"	d	file:
-OFPAT13_ACTION	.\lib\ofp-actions.c	527;"	d	file:
+OFPAT13_ACTION	.\lib\ofp-actions.c	1150;"	d	file:
+OFPAT13_ACTION	.\lib\ofp-actions.c	383;"	d	file:
+OFPAT13_ACTION	.\lib\ofp-actions.c	530;"	d	file:
 OFPAT13_ACTION	.\lib\ofp-print.c	2553;"	d	file:
 OFPAT13_ACTION	.\lib\ofp-util.c	5851;"	d	file:
 OFPAT13_ACTION	.\lib\ofp-util.c	5886;"	d	file:
@@ -3062,7 +3062,7 @@ OVS_GUARDED_BY	.\lib\compiler.h	131;"	d
 OVS_GUARDED_BY	.\lib\compiler.h	150;"	d
 OVS_HASH_ALG_L4	.\include\linux\openvswitch.h	/^	OVS_HASH_ALG_L4,$/;"	e	enum:ovs_hash_alg
 OVS_INSTRUCTIONS	.\lib\ofp-actions.h	/^    OVS_INSTRUCTIONS$/;"	e	enum:ovs_instruction_type
-OVS_INSTRUCTIONS	.\lib\ofp-actions.h	712;"	d
+OVS_INSTRUCTIONS	.\lib\ofp-actions.h	725;"	d
 OVS_KEY_ATTR_ARP	.\include\linux\openvswitch.h	/^	OVS_KEY_ATTR_ARP,       \/* struct ovs_key_arp *\/$/;"	e	enum:ovs_key_attr
 OVS_KEY_ATTR_BUFSIZE	.\lib\odp-util.c	/^enum { OVS_KEY_ATTR_BUFSIZE = 3 + INT_STRLEN(unsigned int) + 1 };$/;"	e	enum:__anon66	file:
 OVS_KEY_ATTR_DP_HASH	.\include\linux\openvswitch.h	/^	OVS_KEY_ATTR_DP_HASH,	\/* u32 hash value. Value 0 indicates the hash$/;"	e	enum:ovs_key_attr
@@ -13466,6 +13466,7 @@ ofpact	.\lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_reg_l
 ofpact	.\lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_reg_move	typeref:struct:ofpact_reg_move::ofpact
 ofpact	.\lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_resubmit	typeref:struct:ofpact_resubmit::ofpact
 ofpact	.\lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_sample	typeref:struct:ofpact_sample::ofpact
+ofpact	.\lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_self_learning	typeref:struct:ofpact_self_learning::ofpact
 ofpact	.\lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_set_field	typeref:struct:ofpact_set_field::ofpact
 ofpact	.\lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_stack	typeref:struct:ofpact_stack::ofpact
 ofpact	.\lib\ofp-actions.h	/^    struct ofpact ofpact;$/;"	m	struct:ofpact_tunnel	typeref:struct:ofpact_tunnel::ofpact
@@ -13532,6 +13533,7 @@ ofpact_resubmit	.\lib\ofp-actions.h	/^struct ofpact_resubmit {$/;"	s
 ofpact_resubmit_to_nxast	.\lib\ofp-actions.c	/^ofpact_resubmit_to_nxast(const struct ofpact_resubmit *resubmit,$/;"	f	file:
 ofpact_sample	.\lib\ofp-actions.h	/^struct ofpact_sample {$/;"	s
 ofpact_sample_to_nxast	.\lib\ofp-actions.c	/^ofpact_sample_to_nxast(const struct ofpact_sample *os,$/;"	f	file:
+ofpact_self_learning	.\lib\ofp-actions.h	/^struct ofpact_self_learning {$/;"	s
 ofpact_set_field	.\lib\ofp-actions.h	/^struct ofpact_set_field {$/;"	s
 ofpact_set_tunnel_to_nxast	.\lib\ofp-actions.c	/^ofpact_set_tunnel_to_nxast(const struct ofpact_tunnel *tunnel,$/;"	f	file:
 ofpact_stack	.\lib\ofp-actions.h	/^struct ofpact_stack {$/;"	s
@@ -18466,6 +18468,7 @@ select_all	.\lib\vswitch-idl.h	/^	bool select_all;$/;"	m	struct:ovsrec_mirror
 select_dst_port	.\lib\vswitch-idl.h	/^	struct ovsrec_port **select_dst_port;$/;"	m	struct:ovsrec_mirror	typeref:struct:ovsrec_mirror::ovsrec_port
 select_src_port	.\lib\vswitch-idl.h	/^	struct ovsrec_port **select_src_port;$/;"	m	struct:ovsrec_mirror	typeref:struct:ovsrec_mirror::ovsrec_port
 select_vlan	.\lib\vswitch-idl.h	/^	int64_t *select_vlan;$/;"	m	struct:ovsrec_mirror
+self_larning	.\lib\ofp-actions.c	/^    struct ofp13_action_self_learning self_larning;$/;"	m	union:ofp_action	typeref:struct:ofp_action::ofp13_action_self_learning	file:
 semantic_rl	.\lib\ovsdb-idl.c	/^static struct vlog_rate_limit semantic_rl = VLOG_RATE_LIMIT_INIT(1, 5);$/;"	v	typeref:struct:vlog_rate_limit	file:
 send	.\datapath\vport.h	/^	int (*send)(struct vport *, struct sk_buff *);$/;"	m	struct:vport_ops
 send	.\lib\netdev-provider.h	/^    int (*send)(struct netdev *netdev, struct ofpbuf *buffer, bool may_steal);$/;"	m	struct:netdev_class
